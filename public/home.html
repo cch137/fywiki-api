@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FyWiki-API</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="The API of FyWiki">
+  <meta name="keywords" content="FyWiki, API">
+  <meta name="author" content="FyWiki">
+  <meta property="og:title" content="FyWiki">
+  <meta property="og:description" content="The API of FyWiki">
+  <meta property="og:image" content="/thumbnail.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Consolas', 'Microsoft YaHei';
+      text-align: center;
+      user-select: none;
+    }
+    main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 95vw;
+      transform: translate(-50%,-50%);
+      white-space: normal;
+    }
+    a {
+      font-weight: bold;
+      color: lightskyblue;
+    }
+    #CH {
+      background-color: #fff;
+      color: #000;
+      padding: 2px;
+      animation: bling 2.5s infinite;    
+      -webkit-animation: bling 2.5s infinite;
+    }
+    @keyframes bling {
+      50% {
+        background-color: #000;
+        color: #fff;
+        font-weight: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hi, welcome to FyWiki-API.</h1>
+    <div>This is <span id="CH">崇恆's</span> application!</div>
+  </main>
+  <script>
+    history.replaceState(0,0,location.pathname);
+  </script>
+</body>
+</html>
