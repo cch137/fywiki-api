@@ -22,7 +22,6 @@ git commit -m "update"
 git push origin master
 vercel --prod
 vercel dev
-
 */
 
 const format_date = require('./modules/format_date').format_date;
